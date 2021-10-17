@@ -1,0 +1,73 @@
+nav
+{
+    font-size: 20px;
+    background-color: #fed00d;
+    color: #272727;
+}
+
+.logo
+{
+    width: 80px;
+    height: 80px;
+}
+
+.popis_logo
+{
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+body
+{
+    margin-top: 130px;
+    margin-bottom: 150px;
+    background-color: #272727;
+}
+
+.nadpis
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.nadpis2
+{
+    font-size: 40px;
+    color: #fed00d;
+    text-align: center;
+}
+
+.text
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.but_objednat
+{
+    color: #272727;
+    font-weight: bold;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    border: #fed00d solid 1px;
+    border-radius: 5px;
+    background-color: #fed00d;
+}
+
+.obrazok_hl_stranka
+{
+    margin: 10px;
+}
+
+.pata
+{
+    background-color: black;
+}
+
+
+
