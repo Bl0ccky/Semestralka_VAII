@@ -4,6 +4,10 @@ nav
     background-color: #fed00d;
     color: #272727;
 }
+.nav-item:hover, .nav-item.active
+{
+    text-decoration: underline;
+}
 
 .logo
 {
@@ -20,9 +24,11 @@ nav
 
 body
 {
+    position: relative;
     margin-top: 130px;
-    margin-bottom: 150px;
     background-color: #272727;
+    min-height: 100vh;
+    padding-bottom: 150px;
 }
 
 .nadpis
@@ -52,21 +58,44 @@ body
     color: #272727;
     font-weight: bold;
     align-items: center;
-    width: 150px;
-    height: 100px;
     border: #fed00d solid 1px;
     border-radius: 5px;
     background-color: #fed00d;
 }
 
+.but_objednat:hover
+{
+    background-color: #272727;
+    color: #fed00d;
+}
+
 .obrazok_hl_stranka
 {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .pata
 {
-    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #272727;
+}
+
+.profil
+{
+    background-color: #fed00d;
+    border-radius: 15px;
+    border: solid 10px #272727;
+    color: black;
+}
+
+.tourGuyNadpis
+{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
 }
 
 
