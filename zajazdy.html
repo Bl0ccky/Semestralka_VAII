@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="css.css" rel="stylesheet" type="text/css">
-    <title>O nás</title>
+    <title>Zájazdy</title>
 </head>
+
 <body>
 <nav class="navbar fixed-top navbar-expand-md navbar-light">
     <div class="container-fluid">
-        <a href="index.html"> <img class="logo" src="https://image.flaticon.com/icons/png/512/88/88714.png"></a>
+        <a href="index.html"> <img class="logo" src="https://image.flaticon.com/icons/png/512/88/88714.png" alt="logo"></a>
         <div class="popis_logo">BookWell</div>
         <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavbar">
@@ -39,27 +40,76 @@
     </div>
 </nav>
 
+<div class="container">
+    <div class="tourGuyNadpis">Naše Zájazdy</div>
+    <div class="row text-center mb-5">
+        <div class="profil matejicko col-12 col-md-6 col-lg-3">
+            <div class="nadpis_profil">Gruzínsko</div>
+            <img src="georgia-flag-round-icon-64.png" class="img-fluid img_country" alt="georgia-flag"><br>
+            Cena: 600€<br>
+            Termín: Jún - August<br>
+            Popis: Ubytovanie v hlavnom meste krajiny, v cene je aj jeden z našich dostupných TourGuidov, letenka, víza
+            a program na každý deň so stravou.<br>
+            <a href="zajazdy.html" role="button" class="btn but_objednat_zaj p-1 p-sm-2 p-md-3">Objednať zájazd</a>
+        </div>
+        <div class="profil iva col-12 col-md-6 col-lg-3">
+            <div class="nadpis_profil">Taliansko</div>
+            <img src="italy-flag-round-icon-64.png" class="img-fluid img_country" alt="italy-flag"><br>
+            Cena: 950€<br>
+            Termín: Január - Máj<br>
+            Popis: Ubytovanie v hlavnom meste krajiny, v cene je aj jeden z našich dostupných TourGuidov, letenka, víza
+            a program na každý deň so stravou.<br>
+            <a href="zajazdy.html" role="button" class="btn but_objednat_zaj p-1 p-sm-2 p-md-3">Objednať zájazd</a>
+        </div>
+        <div class="profil tono col-12 col-md-6 col-lg-3">
+            <div class="nadpis_profil">Belgicko</div>
+            <img src="belgium-flag-round-icon-64.png" class="img-fluid img_country" alt="belgium-flag"><br>
+            Cena: 720€<br>
+            Termín: Február - Marec<br>
+            Popis: Ubytovanie v hlavnom meste krajiny, v cene je aj jeden z našich dostupných TourGuidov, letenka, víza
+            a program na každý deň so stravou.<br>
+            <a href="zajazdy.html" role="button" class="btn but_objednat_zaj p-1 p-sm-2 p-md-3">Objednať zájazd</a>
+        </div>
+        <div class="profil erik col-12 col-md-6 col-lg-3">
+            <div class="nadpis_profil">Irán</div>
+            <img src="iran-flag-round-icon-64.png" class="img-fluid img_country" alt="iran-flag"><br>
+            Cena: 1300€<br>
+            Termín: August - Október<br>
+            Popis: Ubytovanie v hlavnom meste krajiny, v cene je aj jeden z našich dostupných TourGuidov, letenka, víza
+            a program na každý deň so stravou.<br>
+            <a href="zajazdy.html" role="button" class="btn but_objednat_zaj p-1 p-sm-2 p-md-3">Objednať zájazd</a>
+        </div>
+    </div>
+</div>
 
-<div class="container-fluid m-3 tourGuyNadpis">Naši TourGuyovia</div>
-<div class="container-fluid row text-center">
-    <div class="profil matejicko col-12 col-md-6 col-lg-3">Matejíčko<br>
-        Náš najšikovnejší TourGuy, vždy vie kám má
-        ísť, všetko vie zorganizovať. Nájde aj tie najtajnejšie zákutia. Je to rodený leader. Medzi jeho záľuby patrí
-        varenie, pečenie, radenie rýchlostnou pákou ale zo všetkých najviac sa rád sa pochváli.
+<div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="3"></button>
     </div>
-    <div class="profil iva col-12 col-md-6 col-lg-3">Iva<br>
-        Jediná členka našej cestovateľskej partie. Ak chcete
-        niekoho ukecaného, Iva je ten správny výber. Na Hviezdoslavovom kubíne v 6. ročníku vyhrala prvé miesto.
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="georgia.jpg" class="d-block w-100" alt="georgia-pic">
+        </div>
+        <div class="carousel-item">
+            <img src="italia.jpg" class="d-block w-100" alt="italy-pic">
+        </div>
+        <div class="carousel-item">
+            <img src="belgium.jpg" class="d-block w-100 obj_position_top" alt="belgium-pic">
+        </div>
+        <div class="carousel-item">
+            <img src="iran.jpg" class="d-block w-100" alt="iran-pic">
+        </div>
     </div>
-    <div class="profil tono col-12 col-md-6 col-lg-3">Tono<br>
-        Väčšinou vždy ostane ako posledný na výber. Nie je moc
-        šikovný ale jeho hlavnou stránkou je rozveseliť dav, najmä tým, že rozpráva náhodné súvetia, ktoré nedávajú
-        zmysel. Jednoducho, ak je na výber niekto iný z našich TourGuyov, istotne si nevyberte Tona.
-    </div>
-    <div class="profil erik col-12 col-md-6 col-lg-3">Erik<br>
-        Erik je bežný typ TourGuya, ktorý vie kam má ísť a do všetkého ide s chladnou hlavou. Ničoho sa nebojí a ak
-        príde na ťažké rozhodnutie, vždy povie "Daj to sem!" a koná. Netreba sa ho báť, sú tu predsa na výber aj horší.
-    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
 </div>
 
 
@@ -67,14 +117,16 @@
     <!-- Grid container -->
     <div class="container p-4 pb-0">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <div class="mb-4">
             <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/tomas.labat.31" role="button">
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/tomas.labat.31"
+               role="button">
                 <i class="fab fa-facebook-f"></i>
             </a>
 
             <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/tomas.labat/" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/tomas.labat/"
+               role="button"
             ><i class="fab fa-instagram"></i
             ></a>
 
@@ -82,7 +134,7 @@
             <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Bl0ccky" role="button"
             ><i class="fab fa-github"></i
             ></a>
-        </section>
+        </div>
         <!-- Section: Social media -->
     </div>
 
