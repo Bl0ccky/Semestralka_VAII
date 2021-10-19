@@ -90,6 +90,7 @@ body
 {
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 50px;
 }
 
 .pata
@@ -111,9 +112,16 @@ body
 
 .tourGuyNadpis
 {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
+}
+
+.oNasText
+{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
 .nadpis_profil
